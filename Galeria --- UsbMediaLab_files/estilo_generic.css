@@ -1,0 +1,89 @@
+body {
+  overflow-x: hidden;
+   font-family: "Verdana", Geneva, sans-serif;
+   background-color: rgba(0, 178, 192,1);
+}
+
+.navbar {
+  background-color: #1a1a1a;
+  }
+
+.cont_center {
+margin: 0 auto;
+}
+ 
+ /*Redes sociales*/
+.social-link {
+  display: block;
+  height: 4rem;
+  width: 4rem;
+  line-height: 4.3rem;
+  font-size: 1.5rem;
+  background-color: rgb(0, 178, 192); 
+  transition: background-color 0.15s ease-in-out;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.social-link:hover {
+  background-color: rgb(0, 103, 138);
+  text-decoration: none;
+}
+
+#contacto{
+  background-color: #cccccc;
+  }
+
+  #redes {
+   background-color: rgba(245, 32, 139,0.95);
+}
+
+footer {
+  background-color: #1a1a1a;
+}
+
+.slider-frame{
+  
+  overflow: hidden;
+  height: 1200px;
+  width: 4000px;
+ 
+}
+
+
+@-webkit-keyframes slide_animacion{
+  0% {left: 0px;}
+  10% {left: 0px;}
+  20% {left: 1200px;}
+  30% {left: 1200px;}
+  40% {left: 2400px;}
+  50% {left: 2400px;}
+  60% {left: 1200px;}
+  70% {left: 1200px;}
+  80% {left: 0px;}
+  90% {left: 0px;}
+  100% {left: 0px;}
+}
+
+.slide-images{
+  display: flex;
+  width: 3600px;
+  height: 400px;
+  margin: 0 0 0 -2400px;
+  position: relative;
+  -webkit-animation-name: slide_animacion;
+  -webkit-animation-duration: 25s;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-direction:alternate;
+  -webkit-animation-play-state:running;
+}
+.img-container{
+ 
+  height: 800px;
+  width: 800px;
+  position: relative;
+  float: left;
+}
+#divfooter{
+  background-color: rgba(245, 32, 139,0.95);
+
+}
